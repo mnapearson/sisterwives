@@ -48,7 +48,6 @@
 body {
   background-color: #e9e9e9;
   font-family: "Metana";
-  overflow: hidden;
 }
 
 h1 {
@@ -227,21 +226,42 @@ footer a {
   }
 
   .home-link h1 {
-    font-size: 30px;
+    font-size: 28px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  .home-link {
+    display: flex;
+    justify-content: center;
   }
 
   h1 {
     font-size: 20px;
+    margin-left: 0;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav h1 {
+    margin-left: 0;
+    margin-right: 1rem;
   }
 
   .page {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    margin-bottom: 4rem;
+    text-align: center;
   }
 
   .logo {
     margin-top: 4rem;
+    margin-bottom: 4rem;
   }
 
   .logo img {
@@ -250,6 +270,8 @@ footer a {
 
   footer {
     margin: 1rem;
+    position: relative;
+    justify-content: center;
   }
 }
 </style>
