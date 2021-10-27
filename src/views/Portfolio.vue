@@ -18,6 +18,13 @@
         <a
           target="_blank"
           rel="noopener noreferrer"
+          href="http://infected.space/"
+        >
+          <h1 class="link">infected space</h1></a
+        >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://www.antarkeith.com/"
         >
           <h1 class="link">antar keith</h1></a
@@ -27,13 +34,6 @@
           href="https://celestial-weather.netlify.app/"
         >
           <h1 class="link">celestial</h1></a
-        >
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="http://ispyleipzig.de/"
-        >
-          <h1 class="link">ispy</h1></a
         >
       </div>
     </div>
