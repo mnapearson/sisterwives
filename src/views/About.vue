@@ -35,6 +35,10 @@ p {
   margin: 2rem 0;
 }
 
+.logo {
+  display: none;
+}
+
 @media only screen and (max-width: 750px) {
   .logo {
     display: block;
