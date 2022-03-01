@@ -83,7 +83,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 2rem;
 }
 
 .field {
@@ -107,5 +106,6 @@ textarea {
 p {
   margin-top: 3rem;
   font-size: 18px;
+  text-align: center;
 }
 </style>

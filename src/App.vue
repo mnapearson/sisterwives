@@ -97,10 +97,11 @@ h1 {
 }
 
 .page {
+  margin-left: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80vh;
+  height: 70vh;
   -webkit-animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -258,6 +259,7 @@ footer a {
     justify-content: center;
     margin-bottom: 4rem;
     text-align: center;
+    margin-left: 0;
   }
 
   .contact-form {
