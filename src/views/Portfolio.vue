@@ -5,30 +5,24 @@
         <a
           target="_blank"
           rel="noopener noreferrer"
+          href="https://ispyleipzig.netlify.app"
+        >
+          <h1 class="link">i spy</h1></a
+        >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
           href="http://henrikbaumgarten.com/"
         >
           <h1 class="link">traumgaben</h1></a
         ><a
           target="_blank"
           rel="noopener noreferrer"
-          href="http://wellroundedhoodlum.com"
+          href="https://devhausleipzig.de"
         >
-          <h1 class="link">hendershot</h1></a
-        >
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="http://infected.space/"
-        >
-          <h1 class="link">infected space</h1></a
+          <h1 class="link">devhaus</h1></a
         >
         <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.antarkeith.com/"
-        >
-          <h1 class="link">antar keith</h1></a
-        ><a
           target="_blank"
           rel="noopener noreferrer"
           href="https://celestial-weather.netlify.app/"

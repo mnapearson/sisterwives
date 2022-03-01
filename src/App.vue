@@ -10,6 +10,8 @@
 
       <router-link class="link" to="/shop"> <h1>shop</h1></router-link>
 
+      <router-link class="link" to="/radio"><h1>radio</h1></router-link>
+
       <router-link class="link" to="/contact"> <h1>contact</h1></router-link>
     </div>
     <div class="page">
@@ -46,13 +48,14 @@
 }
 
 body {
+  overscroll-behavior: none;
   background-color: #e9e9e9;
   font-family: "Metana";
 }
 
 h1 {
   font-family: "Metana-bold";
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 2rem;
 }
 
@@ -96,7 +99,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100%;
+  height: 80vh;
   -webkit-animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -125,7 +128,7 @@ h1 {
 }
 
 .logo img {
-  height: 70vh;
+  height: 40vh;
 }
 
 .logo:hover {
@@ -205,9 +208,8 @@ h1 {
 footer {
   display: flex;
   align-items: center;
-  position: fixed;
+  position: sticky;
   bottom: 0;
-  margin: 2rem;
 }
 
 .iconify {
@@ -221,6 +223,10 @@ footer a {
 }
 
 @media only screen and (max-width: 750px) {
+  .logo {
+    display: none;
+  }
+
   p {
     font-size: 16px;
   }

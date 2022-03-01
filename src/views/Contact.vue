@@ -23,7 +23,7 @@
         />
 
         <textarea class="field" name="message" placeholder="message"></textarea>
-        <input class="field" type="submit" value="Send" />
+        <input class="field submit" type="submit" value="Send" />
       </form>
       <p v-if="successMessage">
         Thank you for your message. <br />We will get back to you soon.
@@ -93,6 +93,11 @@ h1 {
   border-radius: 5px;
   background-color: #e9e9e9;
   font-family: "Metana";
+  cursor: crosshair;
+}
+
+.submit {
+  cursor: pointer;
 }
 
 textarea {
