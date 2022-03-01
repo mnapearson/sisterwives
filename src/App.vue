@@ -98,6 +98,7 @@ h1 {
 }
 
 .page {
+  height: 80vh;
   margin-left: 2rem;
   margin-top: 2rem;
   display: flex;
@@ -211,6 +212,7 @@ h1 {
 footer {
   position: absolute;
   bottom: 0;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
