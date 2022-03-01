@@ -70,8 +70,8 @@ h1 {
 }
 
 .home-link h1 {
-  font-size: 48px;
-  width: 400px;
+  font-size: 44px;
+  width: 350px;
   line-height: 2.5rem;
   margin: 2rem 0 0 2rem;
 }
@@ -102,7 +102,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70vh;
+  height: 90vh;
   -webkit-animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -211,6 +211,7 @@ h1 {
 footer {
   display: flex;
   align-items: center;
+  justify-content: center;
   position: sticky;
   bottom: 0;
 }
