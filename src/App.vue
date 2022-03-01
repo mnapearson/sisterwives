@@ -99,10 +99,11 @@ h1 {
 
 .page {
   margin-left: 2rem;
+  margin-top: 2rem;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  height: 90vh;
+
   -webkit-animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -212,7 +213,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: sticky;
+  position: fixed;
   bottom: 0;
 }
 
