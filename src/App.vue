@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <router-link class="home-link" to="/"
-      ><h1>sisterwives studio</h1></router-link
-    >
+    <div class="">
+      <router-link class="home-link" to="/"
+        ><h1>sisterwives studio</h1></router-link
+      >
+    </div>
     <div class="nav">
       <router-link class="link" to="/portfolio">
         <h1>portfolio</h1></router-link
@@ -14,6 +16,7 @@
 
       <router-link class="link" to="/contact"> <h1>contact</h1></router-link>
     </div>
+
     <div class="page">
       <div class="view">
         <router-view></router-view>
@@ -66,7 +69,10 @@ h1 {
 }
 
 .home-link h1 {
-  font-size: 50px;
+  font-size: 48px;
+  width: 400px;
+  line-height: 2.5rem;
+  margin: 2rem 0 0 2rem;
 }
 
 .home-link:hover {
@@ -88,11 +94,6 @@ h1 {
 .nav {
   display: flex;
   align-items: flex-start;
-  margin-top: -2.5rem;
-}
-
-.nav h1 {
-  font-size: 20px;
 }
 
 .page {
@@ -231,25 +232,19 @@ footer a {
     font-size: 16px;
   }
 
-  .home-link h1 {
-    font-size: 28px;
-    margin-bottom: 1rem;
-    margin-top: 0;
-  }
-
   .home-link {
     display: flex;
     justify-content: center;
   }
 
-  h1 {
-    font-size: 20px;
+  .home-link h1 {
     margin-left: 0;
+    margin-top: 0.5rem;
   }
 
-  .nav {
-    display: flex;
-    justify-content: center;
+  h1 {
+    font-size: 16px;
+    margin-left: 0;
   }
 
   .nav h1 {
@@ -263,6 +258,10 @@ footer a {
     justify-content: center;
     margin-bottom: 4rem;
     text-align: center;
+  }
+
+  .contact-form {
+    margin-left: 0;
   }
 
   .logo {

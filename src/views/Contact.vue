@@ -5,7 +5,7 @@
         >info@sisterwives.studio</a
       >
     </h1> -->
-
+    <p>get in touch</p>
     <div class="contact-form">
       <form
         ref="contact"

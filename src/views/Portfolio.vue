@@ -12,15 +12,16 @@
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="http://henrikbaumgarten.com/"
-        >
-          <h1 class="link">traumgaben</h1></a
-        ><a
-          target="_blank"
-          rel="noopener noreferrer"
           href="https://devhausleipzig.de"
         >
           <h1 class="link">devhaus</h1></a
+        >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="http://henrikbaumgarten.com/"
+        >
+          <h1 class="link">traumgaben</h1></a
         >
         <a
           target="_blank"
