@@ -100,7 +100,7 @@ h1 {
 .page {
   margin-left: 2rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   height: 90vh;
   -webkit-animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -217,7 +217,7 @@ footer {
 }
 
 .iconify {
-  font-size: 28px;
+  font-size: 24px;
   margin-right: 2rem;
 }
 
@@ -256,10 +256,6 @@ footer a {
   }
 
   .page {
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 4rem;
     text-align: center;
     margin-left: 0;
   }
@@ -275,12 +271,6 @@ footer a {
 
   .logo img {
     height: 275px;
-  }
-
-  footer {
-    margin: 1rem;
-    position: relative;
-    justify-content: center;
   }
 }
 </style>
