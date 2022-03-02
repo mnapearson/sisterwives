@@ -38,7 +38,7 @@
 }
 
 body {
-  margin: 1rem;
+  margin: 1rem 0;
   overscroll-behavior: none;
   background-color: #e9e9e9;
   font-family: "Metana";
