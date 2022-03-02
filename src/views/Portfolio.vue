@@ -29,6 +29,32 @@
           href="https://celestial-weather.netlify.app/"
         >
           <h1 class="link">celestial</h1></a
+        ><a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://antarkeith.com/"
+        >
+          <h1 class="link">antar keith</h1></a
+        >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://wellroundedhoodlum.com/"
+        >
+          <h1 class="link">hendershot</h1></a
+        >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://beenseen.netlify.app/"
+        >
+          <h1 class="link">been seen</h1></a
+        ><a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://zencal-b5217.web.app/"
+        >
+          <h1 class="link">zencal</h1></a
         >
       </div>
     </div>
@@ -42,18 +68,7 @@ export default {
 </script>
 
 <style scoped>
-.sites {
-  display: flex;
-  flex-direction: column;
-  -webkit-animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-
-a {
-  text-decoration: none;
-}
-
 .link {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 </style>

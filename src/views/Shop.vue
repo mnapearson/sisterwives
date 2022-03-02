@@ -1,5 +1,5 @@
 <template>
-  <div classs="shop">
+  <div class="shop">
     <h1>coming soon</h1>
   </div>
 </template>

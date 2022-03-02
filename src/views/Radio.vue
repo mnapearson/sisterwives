@@ -81,8 +81,6 @@ export default {
   display: flex;
   flex-direction: column;
   height: 450px;
-  width: 350px;
-  margin: 2rem;
   overflow-y: scroll;
 }
 

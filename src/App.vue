@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <div class="">
-      <router-link class="home-link" to="/"
-        ><h1>sisterwives studio</h1></router-link
-      >
+      <router-link class="home-link" to="/">sisterwives studio</router-link>
     </div>
     <div class="nav">
       <router-link class="link" to="/portfolio">
@@ -18,17 +16,17 @@
     </div>
 
     <div class="page">
-      <div class="view">
-        <router-view></router-view>
-      </div>
+      <router-view></router-view>
+    </div>
+    <footer>
       <div class="logo">
         <router-link to="/">
           <img src="./assets/sisterwiveslogo.png" alt=""
         /></router-link>
       </div>
-    </div>
-    <footer>
-      <a href="mailto:info@sisterwives.studio">info@sisterwives.studio</a>
+      <a href="mailto:info@sisterwives.studio"
+        ><p>info@sisterwives.studio</p></a
+      >
     </footer>
   </div>
 </template>
@@ -40,29 +38,21 @@
 }
 
 body {
+  margin: 1rem;
   overscroll-behavior: none;
   background-color: #e9e9e9;
   font-family: "Metana";
-  max-width: 900px;
-}
-
-h1 {
-  font-family: "Metana-bold";
-  font-size: 20px;
-  margin-left: 2rem;
+  max-width: 1200px;
 }
 
 .home-link {
+  font-family: "Metana-bold";
   text-decoration: none;
   color: #b9a918;
   -webkit-text-stroke: 1px black;
-}
-
-.home-link h1 {
   font-size: 44px;
   width: 350px;
   line-height: 2.5rem;
-  margin: 2rem 0 0 2rem;
 }
 
 .home-link:hover {
@@ -70,29 +60,32 @@ h1 {
   font-style: italic;
 }
 
-.link {
-  text-decoration: none;
-  color: black;
+.nav {
+  display: flex;
 }
 
-.link:hover {
+h1,
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Metana-bold";
+  font-size: 16px;
+  margin-right: 0.5rem;
+}
+
+h1:hover {
   font-style: italic;
   color: #e9e9e9;
   -webkit-text-stroke: 1px black;
 }
 
-.nav {
-  display: flex;
-  align-items: flex-start;
-}
-
 .page {
-  height: 80vh;
-  margin-left: 2rem;
-  margin-top: 2rem;
-  display: flex;
-  align-items: flex-start;
   justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+  height: 80vh;
+  display: flex;
+  align-items: center;
   -webkit-animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -112,16 +105,6 @@ h1 {
   100% {
     opacity: 1;
   }
-}
-
-.view {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.logo img {
-  height: 40vh;
 }
 
 .logo:hover {
@@ -198,68 +181,15 @@ h1 {
   }
 }
 
+.logo img {
+  width: 375px;
+}
+
 footer {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-
-.iconify {
-  font-size: 24px;
-  margin-right: 2rem;
-}
-
-footer a {
-  color: black;
-  text-decoration: none;
-}
-
-@media only screen and (max-width: 750px) {
-  .logo {
-    display: none;
-  }
-
-  p {
-    font-size: 16px;
-  }
-
-  .home-link {
-    display: flex;
-    justify-content: center;
-  }
-
-  .home-link h1 {
-    margin-left: 0;
-    margin-top: 0.5rem;
-  }
-
-  h1 {
-    font-size: 16px;
-    margin-left: 0;
-  }
-
-  .nav h1 {
-    margin-left: 0;
-    margin-right: 1rem;
-  }
-
-  .page {
-    text-align: center;
-    margin-left: 0;
-  }
-
-  .contact-form {
-    margin-left: 0;
-  }
-
-  .logo {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-  }
-
-  .logo img {
-    height: 275px;
-  }
+  justify-content: flex-end;
 }
 </style>
