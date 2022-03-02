@@ -81,7 +81,7 @@ h1:hover {
 .page {
   justify-content: center;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 4rem;
   height: 80vh;
   display: flex;
   align-items: center;
