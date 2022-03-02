@@ -5,7 +5,7 @@
         >info@sisterwives.studio</a
       >
     </h1> -->
-    <p>get in touch</p>
+    <p v-if="!successMessage">get in touch</p>
     <div class="contact-form">
       <form
         ref="contact"
@@ -13,16 +13,28 @@
         @submit.prevent="sendEmail"
         v-if="!successMessage"
       >
-        <input class="field" type="text" name="user_name" placeholder="name" />
+        <input
+          class="field"
+          type="text"
+          name="user_name"
+          placeholder="name"
+          required
+        />
 
         <input
           class="field"
           type="email"
           name="user_email"
           placeholder="email"
+          required
         />
 
-        <textarea class="field" name="message" placeholder="message"></textarea>
+        <textarea
+          class="field"
+          name="message"
+          placeholder="message"
+          required
+        ></textarea>
         <input class="field submit" type="submit" value="Send" />
       </form>
       <p v-if="successMessage">
