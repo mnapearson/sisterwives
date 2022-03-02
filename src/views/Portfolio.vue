@@ -71,4 +71,8 @@ export default {
 .link {
   margin-top: 2rem;
 }
+
+.portfolio {
+  margin-top: 3rem;
+}
 </style>
