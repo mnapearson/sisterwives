@@ -42,7 +42,6 @@ body {
   overscroll-behavior: none;
   background-color: #e9e9e9;
   font-family: "Metana";
-  max-width: 1200px;
 }
 
 .home-link {
