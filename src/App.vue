@@ -28,17 +28,6 @@
       </div>
     </div>
     <footer>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.instagram.com/sisterwives.studio/"
-      >
-        <span
-          class="iconify"
-          data-icon="ant-design:instagram-filled"
-          style="color: black"
-        ></span
-      ></a>
       <a href="mailto:info@sisterwives.studio">info@sisterwives.studio</a>
     </footer>
   </div>
@@ -210,8 +199,7 @@ h1 {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
