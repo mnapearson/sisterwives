@@ -40,7 +40,9 @@
 body {
   margin: 1rem 0;
   overscroll-behavior: none;
-  background-color: #e9e9e9;
+  /* background-color: #e9e9e9; */
+  background-image: url(./assets/sisterwivesbackground.png);
+  background-size: cover;
   font-family: "Metana";
 }
 
