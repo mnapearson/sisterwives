@@ -2,13 +2,8 @@
   <div>
     <div class="portfolio">
       <div class="sites">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://ispyleipzig.netlify.app"
-        >
-          <h1 class="link">i spy</h1></a
-        >
+        <router-link to="ispy"> <h1 class="link">i spy</h1></router-link>
+
         <a
           target="_blank"
           rel="noopener noreferrer"

@@ -38,7 +38,7 @@
 }
 
 body {
-  margin: 1rem 0;
+  margin: 1rem;
   overscroll-behavior: none;
   /* background-color: #e9e9e9; */
   background-image: url(./assets/sisterwivesbackground.png);
@@ -63,6 +63,8 @@ body {
 
 .nav {
   display: flex;
+  z-index: 1000;
+  margin-bottom: 10rem;
 }
 
 h1,
@@ -81,6 +83,7 @@ h1:hover {
 }
 
 .page {
+  z-index: 1;
   justify-content: center;
   text-align: center;
   margin-top: 4rem;
@@ -192,5 +195,6 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  margin-top: 20rem;
 }
 </style>
