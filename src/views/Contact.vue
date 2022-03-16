@@ -5,7 +5,7 @@
         >info@sisterwives.studio</a
       >
     </h1> -->
-    <h3>get in touch</h3>
+    <h3 v-if="!successMessage">get in touch</h3>
     <form
       ref="contact"
       class="contact-form"
