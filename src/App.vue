@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="pagewrapper" id="app">
     <div class="">
       <router-link class="home-link" to="/">sisterwives studio</router-link>
     </div>
@@ -37,11 +37,25 @@
   src: local("Metana"), url(./fonts/NeueMetana-Regular.otf) format("opentype");
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 1rem;
   overscroll-behavior: none;
   background-color: #e9e9e9;
   font-family: "Metana";
+}
+
+.pagewrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .home-link {
@@ -96,6 +110,8 @@ p {
 
 .page {
   display: flex;
+  flex-grow: 1;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   -webkit-animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -201,7 +217,5 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-  margin-top: 10rem;
 }
 </style>
