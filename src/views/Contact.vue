@@ -5,42 +5,40 @@
         >info@sisterwives.studio</a
       >
     </h1> -->
-    <p v-if="!successMessage">get in touch</p>
-    <div class="contact-form">
-      <form
-        ref="contact"
-        class="contact-form"
-        @submit.prevent="sendEmail"
-        v-if="!successMessage"
-      >
-        <input
-          class="field"
-          type="text"
-          name="user_name"
-          placeholder="name"
-          required
-        />
+    <h3>get in touch</h3>
+    <form
+      ref="contact"
+      class="contact-form"
+      @submit.prevent="sendEmail"
+      v-if="!successMessage"
+    >
+      <input
+        class="field"
+        type="text"
+        name="user_name"
+        placeholder="name"
+        required
+      />
 
-        <input
-          class="field"
-          type="email"
-          name="user_email"
-          placeholder="email"
-          required
-        />
+      <input
+        class="field"
+        type="email"
+        name="user_email"
+        placeholder="email"
+        required
+      />
 
-        <textarea
-          class="field"
-          name="message"
-          placeholder="message"
-          required
-        ></textarea>
-        <input class="field submit" type="submit" value="Send" />
-      </form>
-      <p v-if="successMessage">
-        Thank you for your message. <br />We will get back to you soon.
-      </p>
-    </div>
+      <textarea
+        class="field"
+        name="message"
+        placeholder="message"
+        required
+      ></textarea>
+      <input class="field submit" type="submit" value="Send" />
+    </form>
+    <p v-if="successMessage">
+      Thank you for your message. <br />We will get back to you soon.
+    </p>
   </div>
 </template>
 
@@ -85,11 +83,6 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  -webkit-animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -98,7 +91,7 @@ h1 {
 }
 
 .field {
-  width: 250px;
+  width: 350px;
   margin: 1rem;
   padding: 0.5rem;
   border-radius: 5px;
@@ -115,9 +108,7 @@ textarea {
   height: 150px;
 }
 
-p {
-  margin-top: 3rem;
-  font-size: 18px;
+h3 {
   text-align: center;
 }
 </style>

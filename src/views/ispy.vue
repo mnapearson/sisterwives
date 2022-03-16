@@ -5,20 +5,16 @@
       rel="noopener noreferrer"
       href="https://ispyleipzig.netlify.app"
     >
-      <h1>ispy</h1></a
-    >
-    <div class="images">
-      <img class="mobile" src="../assets/ispymobile.png" alt="" />
-      <img class="desktop" src="../assets/ispymockup.png" alt="" />
-    </div>
-
+      <h1>ispy</h1>
+      <img class="image" src="../assets/mockups.png" alt="" />
+    </a>
     <div class="ispy">
       <div class="col-left">
         <h3>role</h3>
         <p>designer and developer</p>
         <h3>project type</h3>
         <p>web and mobile app</p>
-        <h3>year</h3>
+        <h3>when</h3>
         <p>2021-2022</p>
       </div>
       <div class="col-right">
@@ -42,7 +38,7 @@
         </p>
       </div>
     </div>
-    <router-link to="portfolio"><h1 class="next">next project</h1></router-link>
+    <router-link to="devhaus"><h1 class="next">next project</h1></router-link>
   </div>
 </template>
 
@@ -50,42 +46,20 @@
 export default {};
 </script>
 
-<style scoped>
-h2 {
-  font-size: 16px;
-}
-
-h3 {
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
-p {
-  font-size: 12px;
-}
-
+<style>
 .project {
   width: 100vw;
-}
-
-.images {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.mobile {
-  max-height: 200px;
-  padding: 1rem;
-}
-
-.desktop {
-  max-width: 375px;
-  padding: 1rem;
+.image {
+  max-width: 350px;
 }
 
 .ispy {
-  text-align: left;
   display: flex;
   align-items: flex-start;
   line-height: 1.5rem;
@@ -101,18 +75,10 @@ p {
 }
 
 .next {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
-  .project {
-    margin-top: 30rem;
-  }
-
-  .images {
-    flex-direction: column;
-  }
-
   .ispy {
     flex-direction: column;
   }

@@ -1,6 +1,6 @@
 <template>
   <div class="shop">
-    <h1>coming soon</h1>
+    <h3>coming soon</h3>
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style scoped>
-h1 {
+h3 {
   -webkit-animation: blink-1 10s infinite both;
   animation: blink-1 10s infinite both;
 }

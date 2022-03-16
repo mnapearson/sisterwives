@@ -10,7 +10,7 @@
 
       <router-link class="link" to="/shop"> <h1>shop</h1></router-link>
 
-      <router-link class="link" to="/radio"><h1>radio</h1></router-link>
+      <!-- <router-link class="link" to="/radio"><h1>radio</h1></router-link> -->
 
       <router-link class="link" to="/contact"> <h1>contact</h1></router-link>
     </div>
@@ -40,9 +40,7 @@
 body {
   margin: 1rem;
   overscroll-behavior: none;
-  /* background-color: #e9e9e9; */
-  background-image: url(./assets/sisterwivesbackground.png);
-  background-size: cover;
+  background-color: #e9e9e9;
   font-family: "Metana";
 }
 
@@ -63,8 +61,7 @@ body {
 
 .nav {
   display: flex;
-  z-index: 1000;
-  margin-bottom: 10rem;
+  margin-bottom: 3rem;
 }
 
 h1,
@@ -74,6 +71,7 @@ a {
   font-family: "Metana-bold";
   font-size: 16px;
   margin-right: 0.5rem;
+  text-align: center;
 }
 
 h1:hover {
@@ -82,13 +80,23 @@ h1:hover {
   -webkit-text-stroke: 1px black;
 }
 
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 12px;
+}
+
 .page {
-  z-index: 1;
-  justify-content: center;
-  text-align: center;
-  margin-top: 4rem;
-  height: 80vh;
   display: flex;
+  justify-content: center;
   align-items: center;
   -webkit-animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -190,11 +198,10 @@ h1:hover {
 }
 
 footer {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  margin-top: 20rem;
+  margin-top: 10rem;
 }
 </style>
