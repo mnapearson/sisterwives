@@ -106,6 +106,7 @@ h3 {
 
 p {
   font-size: 12px;
+  margin: 1rem;
 }
 
 .page {
@@ -217,5 +218,59 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 3rem;
+}
+
+.project {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  max-width: 350px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 1.5rem;
+}
+
+.row {
+  max-width: 50%;
+  margin: 1rem;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail p {
+  margin: 0;
+}
+
+.next {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row {
+    max-width: 80%;
+  }
+
+  .detail {
+    text-align: center;
+  }
 }
 </style>

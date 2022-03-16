@@ -8,16 +8,22 @@
       <h1>traumgaben</h1>
       <img class="image" src="../assets/henrik.png" alt="" />
     </a>
-    <div class="ispy">
-      <div class="col-left">
-        <h3>role</h3>
-        <p>designer and developer</p>
-        <h3>project type</h3>
-        <p>website</p>
-        <h3>when</h3>
-        <p>May 2021</p>
+    <div class="info">
+      <div class="row">
+        <div class="detail">
+          <h3>role</h3>
+          <p>designer and developer</p>
+        </div>
+        <div class="detail">
+          <h3>project type</h3>
+          <p>website</p>
+        </div>
+        <div class="detail">
+          <h3>when</h3>
+          <p>May 2021</p>
+        </div>
       </div>
-      <div class="col-right">
+      <div class="description row">
         <h3>description</h3>
         <p>
           henrik baumgarten is a musician, composer and instructor based in
@@ -46,46 +52,3 @@
 <script>
 export default {};
 </script>
-
-<style>
-.project {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.image {
-  max-width: 350px;
-}
-
-.ispy {
-  display: flex;
-  align-items: flex-start;
-  line-height: 1.5rem;
-}
-
-.col-left {
-  width: 50%;
-  padding: 1rem;
-}
-
-.col-right {
-  padding: 1rem;
-}
-
-.next {
-  margin-top: 2rem;
-}
-
-@media only screen and (max-width: 600px) {
-  .ispy {
-    flex-direction: column;
-  }
-
-  .col-left {
-    width: 100%;
-  }
-}
-</style>

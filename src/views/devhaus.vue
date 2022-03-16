@@ -8,16 +8,22 @@
       <h1>devhaus</h1>
       <img class="image" src="../assets/devhaus.png" alt="" />
     </a>
-    <div class="ispy">
-      <div class="col-left">
-        <h3>role</h3>
-        <p>designer and developer</p>
-        <h3>project type</h3>
-        <p>website</p>
-        <h3>when</h3>
-        <p>Dec 2020</p>
+    <div class="info">
+      <div class="row">
+        <div class="detail">
+          <h3>role</h3>
+          <p>designer and developer</p>
+        </div>
+        <div class="detail">
+          <h3>project type</h3>
+          <p>website</p>
+        </div>
+        <div class="detail">
+          <h3>when</h3>
+          <p>Dec 2020</p>
+        </div>
       </div>
-      <div class="col-right">
+      <div class="description row">
         <h3>description</h3>
         <p>
           devhaus leipzig is an educational community dedicated to providing
